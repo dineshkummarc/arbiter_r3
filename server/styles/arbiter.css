@@ -1,0 +1,150 @@
+body {
+ background-color:#F3F3F3;
+ font:normal 13px Arial,Sans-serif;
+}
+
+a {
+ color:#3F7A1C;
+}
+
+h1 {
+  color:#494949;
+  font-size:24px;
+  font-weight:normal;
+  margin-left:15%;
+}
+
+h3 {
+ color:#90A784;
+}
+
+/* Layout Column */
+
+#content {
+ width:70%;
+ margin:auto;
+}
+
+.message {
+ width:70%;
+ padding:6px 10px 4px 3px;
+ background-color:#90A784;
+}
+
+/* Form Interface */
+
+#upload-form {
+ border:1px dotted #90A784;
+ width:70%;
+ margin-top:22px;
+ padding:0 0 6px 12px;
+ background-color:#eee;
+}
+
+form .message {
+ width:80%;
+ background-color:#a50;
+}
+
+form .message em {
+ color:#fff;
+}
+
+.message p {
+ margin:0;
+ color:#fff;
+}
+/* Glossary Definition List */
+
+.glossary .term dt {
+ margin:0;
+ padding:3px;
+ font-weight:bold;
+ background-color:#eaeaea;
+ color:#333;
+}
+
+.glossary .term dd {
+ margin:0;
+ padding-left:3px;
+}
+
+/* Inline File Icons */
+
+p em {
+ font-style:normal;
+ font-weight:bold;
+ color:#5B6B54;
+ padding-left:16px;
+}
+
+p em.rtf {
+ background:1px 0 no-repeat url(../../designs/mockups/icons/rtf.gif);
+}
+
+p em.doc {
+ background:0 0 no-repeat url(icons/doc.gif);
+}
+
+/* Document Table */
+
+.document {
+ border:1px solid #507A37;
+ background-color:#eaeaea;
+ margin:0 0 10px 0;
+}
+
+.document table {
+ border:1px dotted #3F7A1C;
+ width:100%;
+}
+
+.document th {
+ /*border-bottom:1px dotted #3F7A1C;*/
+ font:bold 13px Arial,Sans-serif;
+ text-align:left;
+ padding:2px 0 3px 24px;
+}
+
+.document th.doc {
+ background:#B1D391 3px 2px no-repeat url(icons/doc.gif);
+}
+
+.document th.rtf {
+ background:#B1D391 3px 2px no-repeat url(../../designs/mockups/icons/rtf.gif);
+}
+
+.document td {
+ font:normal 13px Arial,Sans-serif;
+}
+
+.document td.type {
+ font-size:11px;
+}
+
+.document td.description {
+ width:60%;
+}
+
+.document td.related {
+ font-style:normal;
+}
+
+.document td.related a {
+ color:#3F7A1C;
+}
+
+.pass { 
+ color: green; 
+}
+
+.fail { 
+ color: red; 
+}
+
+/* Temporary project homepage */
+
+.project-detail {
+ float:right;
+ margin-right:30%;
+}

@@ -1,0 +1,43 @@
+You probably got this from...
+http://sourceforge.net/projects/arbiter
+
+This is not working code! It is a developer only release to
+show the state of the project.
+
+If there is no licence agreement with this package please download
+a version from the location above. You must read and accept that
+licence to use this software. The file is titled simply LICENSE.
+
+What is it?
+
+Arbiter is a requirements gathering and project sign off tool. It was
+first described at SitePoint here...
+
+http://www.sitepoint.com/forums/showthread.php?t=193797
+
+It's a tool for project managers to ease client interaction.
+The project specification can be defined in word processor format as
+you would normally. By adding some special items, such as titled
+bulleted lists and highlighted text items, both a test suite and
+glossary can be written right into the spec. The Arbiter server will
+parse these documents and run the tests, reporting the results into
+the documents themselves. This allows the client to see project process.
+
+It also allows the developers, sitting next to the client, to add
+concrete executable examples of the use cases. This adds clarity and
+helps to settle disputes over required functionality. Using the glossary,
+developers can signal to the client that concepts are not well understood.
+Tests can be marked pending if a document contains unexplained glossary
+items.
+
+The test format is bulleted lists of instructions in the style of
+someone using a web browser. Macros are allowed for factoring the tests.
+
+The tool itself contains self tests. to run these you have to make
+the 'temp' folder writeable by the web server. Then point your
+browser at test/all_tests.php and hopefully you should see the
+green bar.
+
+Yours Marcus, Christian, Jean-Marie, Brenden, Andres, Mark.
+
+
